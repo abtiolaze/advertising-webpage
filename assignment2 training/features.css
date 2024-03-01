@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+    display: flex;
+    justify-content: flex-end; /* Move content to the right side */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .knives {
+    width: 70%; /* Adjust width as needed */
+  }
+  
+  .knife {
+    display: flex;
+    align-items: center;
+  }
+  
+  .knife img {
+    width: 200px; /* Fixed image width */
+    margin-right: 2rem;
+  }
+  
+  .info-wrapper {
+    flex: 1; /* Expands to fill remaining space */
+  }
+  
+  .info {
+    margin-bottom: 1rem;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .features li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+  }

@@ -1,0 +1,31 @@
+body {
+    background-color: lightgray;
+}
+
+table {
+  min-width: 600px; /* Sets a minimum width for larger screens */
+  border-collapse: collapse;
+  width: 100%; 
+  margin: 2rem auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.knife-info {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.knife-info h3 {
+  margin-bottom: 0.5rem;
+}
